@@ -8,9 +8,10 @@ URL: http://pecl.php.net/package/imagick
 Source0: https://github.com/Imagick/imagick/archive/3.4.4.tar.gz
 Source1: imagick.ini
 
+
 BuildRequires: ImageMagick-devel
 BuildRequires: ea-php72 ea-php72-php-cli ea-php72-php-devel
-Requires: ea-php72
+Requires: ea-php72 ImageMagick-devel
 
 %description
 Imagick is a native php extension to create and modify images using the ImageMagick API.
