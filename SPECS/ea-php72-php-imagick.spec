@@ -11,7 +11,7 @@ Source1: imagick.ini
 
 BuildRequires: ImageMagick-devel
 BuildRequires: ea-php72 ea-php72-php-cli ea-php72-php-devel
-Requires: ea-php72 ImageMagick-devel
+Requires: ea-php72 
 
 %description
 Imagick is a native php extension to create and modify images using the ImageMagick API.
